@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+char a[20],b[20];
+int c;
+printf("enter the string");
+scanf("%s",&a);
+b=strrev(a);
+c=strcmp(a,b);
+if(c==0)
+printf("is palindrome");
+else
+printf("not a palindrome");
+}
